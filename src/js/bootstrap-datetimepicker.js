@@ -2405,6 +2405,8 @@
      * @class datetimepicker
      * @memberOf jQuery.fn
      */
+    if (!$.fn) return;
+ 
     $.fn.datetimepicker = function (options) {
         options = options || {};
 
